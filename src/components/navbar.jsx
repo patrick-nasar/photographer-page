@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <>
       <div>
-        <nav className="z-10  w-full sticky  top-0 bg-slate-50 flex dark:bg-slate-800 h-fit " >
+        <nav className="z-10  w-full sticky  top-0 bg-slate-100 flex dark:bg-slate-800 h-fit " >
           <div className="container mx-auto p-5 flex justify-start items-center dark:text-white">
             <span>logo</span>
             <span>Naram</span>
@@ -26,7 +26,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              to="/gallery"
+              to="/Gallery"
               className="hover:text-gray-500 dark:text-white dark:hover:text-gray-400"
             >
               Gallery

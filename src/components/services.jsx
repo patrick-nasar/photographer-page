@@ -8,7 +8,7 @@ export default function Services() {
         Services
       </h1>
       <div className="md:flex md:space-y-0 space-y-4 justify-evenly gap-5 dark:text-white mx-4">
-        <div className="block uppercase w-full p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <div className="block uppercase w-full p-6 max-w-sm bg-slate-50 rounded-lg border border-gray-200 shadow-md transition-all duration-700 hover:bg-gray-100 hover:scale-110 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
           <h3 className="text-xl font-bold mb-4">photo</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
@@ -17,7 +17,7 @@ export default function Services() {
             ea, nesciunt fuga.
           </p>
         </div>
-        <div className="block uppercase w-full p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <div className="block uppercase w-full p-6 max-w-sm bg-slate-50 rounded-lg border border-gray-200 shadow-md transition-all duration-700 hover:bg-gray-100 hover:scale-110 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
           <h3 className="text-xl font-bold mb-4">video</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
@@ -26,7 +26,7 @@ export default function Services() {
             aliquid, vero maxime minus.
           </p>
         </div>
-        <div className="block uppercase w-full p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <div className="block uppercase w-full p-6 max-w-sm bg-slate-50 rounded-lg border border-gray-200 shadow-md transition-all duration-700 hover:bg-gray-100 hover:scale-110 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
           <h3 className="text-xl font-bold mb-4">photo and video</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio

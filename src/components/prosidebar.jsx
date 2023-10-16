@@ -33,11 +33,10 @@ export default function Prosidebar() {
           </button>
         </div>
       ) : (
-        <Slide>
           <div
-            className={`relative md:flex  overflow-auto border-r ${
-              isOpen ? "translate-x-0" : "translate-x-full"
-            } ease-in-out duration-300`}
+            className={`relative md:flex  overflow-auto border-r  ${
+              isOpen ? "translate-x-0 transition-all duration-1000 ease-in-out" : "translate-x-full transition-all duration-1000 ease-in-out"
+            }`}
           >
             <div className=" h-screen sm:w-60 md:w-64 p-4 text-slate-600 dark:text-white ">
               <div className="absolute top-0 right-0 p-2">
@@ -75,44 +74,60 @@ export default function Prosidebar() {
                 </Link>
                 <div className=" space-y-3  ">
                   <div>
-                    <a className=" hover:text-orange-300 cursor-pointer">
+                    <Link
+                    to='/Gallery/Wedding'
+                    className=" hover:text-orange-300 cursor-pointer">
                       Wedding
-                    </a>
+                    </Link>
                   </div>
                   <div>
-                    <a className=" hover:text-orange-300 cursor-pointer">
+                    <Link
+                    to='/Gallery/Engaged'
+                    className=" hover:text-orange-300 cursor-pointer">
                       Engaged
-                    </a>
+                    </Link>
                   </div>
                   <div>
-                    <a className=" hover:text-orange-300 cursor-pointer">
+                    <Link
+                    to='/Gallery/Conference'
+                    className=" hover:text-orange-300 cursor-pointer">
                       Conference
-                    </a>
+                    </Link>
                   </div>
                   <div>
-                    <a className=" hover:text-orange-300 cursor-pointer">
+                    <Link
+                    to='/Gallery/Graduation'
+                    className=" hover:text-orange-300 cursor-pointer">
                       Graduation
-                    </a>
+                    </Link>
                   </div>
                   <div>
-                    <a className=" hover:text-orange-300 cursor-pointer">
+                    <Link
+                    to='/Gallery/Birthday'
+                    className=" hover:text-orange-300 cursor-pointer">
                       Birthday
-                    </a>
+                    </Link>
                   </div>
                   <div>
-                    <a className=" hover:text-orange-300 cursor-pointer">
+                    <Link
+                    to='/Gallery/Models'
+                    className=" hover:text-orange-300 cursor-pointer">
                       Models
-                    </a>
+                    </Link>
                   </div>
                   <div>
-                    <a className=" hover:text-orange-300 cursor-pointer">
+                    <Link
+                    to='/Gallery/Food'
+                    className=" hover:text-orange-300 cursor-pointer">
                       Food
-                    </a>
+                    </Link>
                   </div>
                   <div>
-                    <a className=" hover:text-orange-300 cursor-pointer">
+                    <Link
+                    to='/Gallery/Products'
+                    className=" hover:text-orange-300 cursor-pointer">
                       Products
-                    </a>
+                    </Link>
                   </div>
                   {/* <p className=""></p> */}
                   <FooterIMGP />
@@ -120,7 +135,6 @@ export default function Prosidebar() {
               </div>
             </div>
           </div>
-        </Slide>
       )}{" "}
     </>
   );

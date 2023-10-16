@@ -12,7 +12,7 @@ export default function SideBar() {
   };
   return (
     <div>
-      <div className=" md:flex  overflow-auto">
+      <div className=" md:flex  overflow-auto duration-1000 ">
         <div className=" h-screen sm:w-60 md:w-64 p-4 text text-slate-600 bg-white dark:text-white dark:bg-slate-700">
           <div className="text-center border-b  pb-4">
             <h1>Naram</h1>

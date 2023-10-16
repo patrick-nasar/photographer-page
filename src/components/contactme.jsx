@@ -16,7 +16,8 @@ export default function Contactme() {
 
       {/* footer  */}
       <div className="md:flex md:space-y-0 space-y-4 justify-evenly gap-5 dark:text-white mx-4">
-        <div className="block w-full p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        {/*social networks */}
+        <div className="block w-full p-6 max-w-sm bg-slate-50 rounded-lg border border-gray-200 shadow-md transition-all duration-700 hover:scale-105 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
           <h3 className="text-xl uppercase font-bold mb-4">social networks</h3>
           <div className="text-left flex flex-col space-y-3">
             <div>
@@ -39,7 +40,8 @@ export default function Contactme() {
             </div>
           </div>
         </div>
-        <div className="block  w-full p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        {/*Phone */}
+        <div className="block  w-full p-6 max-w-sm bg-slate-50 rounded-lg border border-gray-200 shadow-md transition-all duration-700 hover:scale-105 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
           <h3 className="text-xl font-bold uppercase mb-4">Phone</h3>
           <div className="text-left flex flex-col space-y-3">
             <div>
@@ -58,7 +60,8 @@ export default function Contactme() {
             <a href="tel:+0123456789">Click to call</a> */}
           </div>
         </div>
-        <div className="block uppercase w-full p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        {/*E-mail*/}
+        <div className="block uppercase w-full p-6 max-w-sm bg-slate-50 rounded-lg border border-gray-200 shadow-md transition-all duration-700 hover:scale-105 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
           <h3 className="text-xl font-bold uppercase mb-4">E-mail</h3>
           <div className="text-left flex flex-col space-y-3">
             <div>
@@ -69,7 +72,8 @@ export default function Contactme() {
             </div>
           </div>
         </div>
-        <div className="block uppercase w-full p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        {/*Location */}{" "}
+        <div className="block uppercase w-full p-6 max-w-sm bg-slate-50 rounded-lg border border-gray-200 shadow-md transition-all duration-700 hover:scale-105 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
           <h3 className="text-xl font-bold uppercase mb-4">Location</h3>
           <div className="text-left flex flex-col space-y-3">
             <div>
