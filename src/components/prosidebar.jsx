@@ -34,7 +34,7 @@ export default function Prosidebar() {
         </div>
       ) : (
           <div
-            className={`relative md:flex  overflow-auto border-r  ${
+            className={`relative md:flex border-r  ${
               isOpen ? "translate-x-0 transition-all duration-1000 ease-in-out" : "translate-x-full transition-all duration-1000 ease-in-out"
             }`}
           >

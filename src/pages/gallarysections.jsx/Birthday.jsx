@@ -8,7 +8,7 @@ export const Birthday = () => {
   const [colorTheme, setTheme] = useDarkMode();
 
   return (
-    <div className=" flex bg-white dark:bg-slate-800">
+    <div className="flex bg-white dark:bg-slate-800">
       <Prosidebar className="absolute" />
       <div className="w-full h-screen overflow-auto transition-all duration-1000 ease-in-out ">
         <div className="text-left p-4 w-fit h-fit">
