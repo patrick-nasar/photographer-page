@@ -9,7 +9,7 @@ export default function Gallery1() {
 
   return (
     <div className="w-full h-screen overflow-auto transition-all duration-1000 ease-in-out ">
-      <div className="text-left p-4 w-fit h-fit">
+      {/* <div className="text-left p-4 w-fit h-fit">
         <div className="flex flex-col absolute top-0 right-3 p-4">
           {colorTheme == "dark" ? (
             <svg
@@ -49,7 +49,7 @@ export default function Gallery1() {
             </svg>
           )}
         </div>
-      </div>
+      </div> */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 text-white p-3 transition-all duration-1000 ease-in-out">
         <div className="self-center">
             <img src={a} />

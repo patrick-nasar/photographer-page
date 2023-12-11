@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <>
       <div className="">
-        <img src={man} />
+        <img src={man} className="w-full"/>
         <div
           className="hidden md:flex flex-col absolute text-black
             bg-slate-100 md:top-28  md:right-10 lg:top-40 lg:right-16  p-4 rounded-md gap-2 w-1/3

@@ -6,9 +6,9 @@ import Tooltip from '@mui/material/Tooltip';
 
 export default function FooterIMGP() {
   return (
-    <div className="text-left pt-16 bottom-0">
+    <div className="text-left pt-16 bottom-0 w">
       <h1 className=" dark:text-white">
-        Design and Developed by Patrick Nassar
+        Developed by Patrick Nassar
       </h1>
       <div className="space-x-3 text-md">
         {/* <a href="https://www.facebook.com/patrick.nassar.7/">

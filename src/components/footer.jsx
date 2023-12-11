@@ -11,8 +11,8 @@ import Tooltip from '@mui/material/Tooltip';
 
 export default function Footer() {
   return (
-    <div className="md:flex text-center justify-center space-x-4 py-6 ">
-      <h1 className="p-1 font-bold dark:text-white">Design and Developed by Patrick Nassar</h1>
+    <div className="md:flex text-center justify-center space-x-4 pb-6 pt-7 ">
+      <h1 className="p-1 font-bold dark:text-white">Developed by Patrick Nassar</h1>
       <div className="space-x-4 text-lg">
         {/* <a href="https://www.facebook.com/patrick.nassar.7/">
           <FacebookIcon className="text-blue-600 " />
