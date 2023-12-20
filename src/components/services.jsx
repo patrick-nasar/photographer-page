@@ -1,5 +1,4 @@
 import React from "react";
-import starsBG from "../img/Stars.jpg";
 
 export default function Services() {
   return (
